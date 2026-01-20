@@ -52,3 +52,18 @@ This separation improves readability, testability, and long-term maintainability
 ### Get current jackpot
 ```http
 GET /jackpot
+
+### Contribute to jackpot
+```http
+POST /jackpot/contribute?amount=0.1
+
+### Win jackpot
+```http
+POST /jackpot/win
+
+### Get jackpot win history
+```http
+GET /jackpot/history
+
+
+
